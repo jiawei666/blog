@@ -1,0 +1,161 @@
+[ 2017-01-02T18:22:06+08:00 ] 0.0.0.0 /Blog/home.php/Comment/dorm?cid=66
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.004000s ]
+SQL: UPDATE `comment` SET `status`=0 WHERE ( id=66 ) [ RunTime:0.285016s ]
+
+[ 2017-01-02T18:22:07+08:00 ] 0.0.0.0 /Blog/home.php/Comment/dorm?cid=66
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.148009s ]
+SQL: UPDATE `comment` SET `status`=0 WHERE ( id=66 ) [ RunTime:0.001000s ]
+
+[ 2017-01-02T18:25:23+08:00 ] 0.0.0.0 /Blog/home.php/Comment/dorm?cid=64
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.010000s ]
+SQL: UPDATE `comment` SET `status`=0 WHERE ( id=64 ) [ RunTime:0.000000s ]
+
+[ 2017-01-02T18:28:26+08:00 ] 0.0.0.0 /Blog/home.php/Comment/dorm?cid=70
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.005000s ]
+SQL: UPDATE `comment` SET `status`=0 WHERE ( id=70 ) [ RunTime:0.000000s ]
+
+[ 2017-01-02T18:28:37+08:00 ] 0.0.0.0 /Blog/home.php/Comment/dorm?cid=67
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.004001s ]
+SQL: UPDATE `comment` SET `status`=0 WHERE ( id=67 ) [ RunTime:0.000000s ]
+
+[ 2017-01-02T18:28:45+08:00 ] 0.0.0.0 /Blog/home.php/Comment/dorm?cid=69
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.005001s ]
+SQL: UPDATE `comment` SET `status`=0 WHERE ( id=69 ) [ RunTime:0.000000s ]
+
+[ 2017-01-02T18:30:07+08:00 ] 0.0.0.0 /Blog/home.php/Comment/dorm?cid=71
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.004000s ]
+SQL: UPDATE `comment` SET `status`=0 WHERE ( id=71 ) [ RunTime:0.000000s ]
+
+[ 2017-01-02T18:30:12+08:00 ] 0.0.0.0 /Blog/home.php/Comment/dorm?cid=72
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.004000s ]
+SQL: UPDATE `comment` SET `status`=0 WHERE ( id=72 ) [ RunTime:0.001000s ]
+
+[ 2017-01-02T18:37:17+08:00 ] 0.0.0.0 /Blog/home.php/Comment/dorm?cid=73
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.004000s ]
+SQL: UPDATE `comment` SET `status`=0 WHERE ( id=73 ) [ RunTime:0.001000s ]
+
+[ 2017-01-02T18:40:13+08:00 ] 0.0.0.0 /Blog/home.php/Comment/dorm?cid=76
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.004000s ]
+SQL: UPDATE `comment` SET `status`=0 WHERE ( id=76 ) [ RunTime:0.001000s ]
+
+[ 2017-01-02T18:40:19+08:00 ] 0.0.0.0 /Blog/home.php/Comment/dorm?cid=74
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.004000s ]
+SQL: UPDATE `comment` SET `status`=0 WHERE ( id=74 ) [ RunTime:0.001000s ]
+
+[ 2017-01-02T18:45:44+08:00 ] 0.0.0.0 /Blog/home.php/Comment/dorm?cid=75
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.004000s ]
+SQL: UPDATE `comment` SET `status`=0 WHERE ( id=75 ) [ RunTime:0.000000s ]
+
+[ 2017-01-02T18:52:37+08:00 ] 0.0.0.0 /Blog/home.php/Comment/dorm?cid=77
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.004000s ]
+SQL: UPDATE `comment` SET `status`=0 WHERE ( id=77 ) [ RunTime:0.001000s ]
+
+[ 2017-01-02T18:54:03+08:00 ] 0.0.0.0 /Blog/home.php/Comment/dorm?cid=54
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.004000s ]
+SQL: UPDATE `comment` SET `status`=0 WHERE ( id=54 ) [ RunTime:0.001000s ]
+
+[ 2017-01-02T18:55:21+08:00 ] 0.0.0.0 /Blog/home.php/Comment/dorm?cid=79
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.004000s ]
+SQL: UPDATE `comment` SET `status`=0 WHERE ( id=79 ) [ RunTime:0.000000s ]
+
+[ 2017-01-02T18:57:52+08:00 ] 0.0.0.0 /Blog/home.php/Comment/dorm?cid=80
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.004000s ]
+SQL: UPDATE `comment` SET `status`=0 WHERE ( id=80 ) [ RunTime:0.001000s ]
+
+[ 2017-01-02T19:14:41+08:00 ] 0.0.0.0 /Blog/home.php/Comment/dorm?cid=81
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.004000s ]
+SQL: UPDATE `comment` SET `status`=0 WHERE ( id=81 ) [ RunTime:0.001000s ]
+
+[ 2017-01-02T19:17:12+08:00 ] 0.0.0.0 /Blog/home.php/Comment/dorm?cid=83
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.004000s ]
+SQL: UPDATE `comment` SET `status`=0 WHERE ( id=83 ) [ RunTime:0.001000s ]
+
+[ 2017-01-02T21:41:50+08:00 ] 0.0.0.0 /Blog/home.php/Comment/dorm?cid=87
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.004000s ]
+SQL: UPDATE `comment` SET `status`=0 WHERE ( id=87 ) [ RunTime:0.039003s ]
+
+[ 2017-01-02T21:41:54+08:00 ] 0.0.0.0 /Blog/home.php/Comment/dorm?cid=85
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.004001s ]
+SQL: UPDATE `comment` SET `status`=0 WHERE ( id=85 ) [ RunTime:0.001000s ]
+
+[ 2017-01-02T21:41:57+08:00 ] 0.0.0.0 /Blog/home.php/Comment/dorm?cid=63
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.005000s ]
+SQL: UPDATE `comment` SET `status`=0 WHERE ( id=63 ) [ RunTime:0.000000s ]
+
+[ 2017-01-02T21:42:00+08:00 ] 0.0.0.0 /Blog/home.php/Comment/dorm?cid=62
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.004001s ]
+SQL: UPDATE `comment` SET `status`=0 WHERE ( id=62 ) [ RunTime:0.001000s ]
+
+[ 2017-01-02T22:00:03+08:00 ] 0.0.0.0 /Blog/home.php/Comment/dorm?cid=88
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.007000s ]
+SQL: UPDATE `comment` SET `status`=0 WHERE ( id=88 ) [ RunTime:0.001000s ]
+

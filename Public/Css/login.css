@@ -1,0 +1,49 @@
+.Login{
+
+    position: fixed;
+    _position: absolute;
+    z-index: 9999;
+    left: 40%;
+    top:170px ;
+    width: 345px;
+    background: rgba(255, 255, 255, 0.5) !important;
+    border-radius:5px;
+
+
+}
+.Loginuser{
+    background-color: white;
+    width: 300px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius:5px;
+
+
+
+}
+.Logincode{
+    width: 300px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius:5px;
+}
+.Loginbuttom{
+    background-color:#8D0000 ;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    line-height: 27px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius:5px;
+    cursor: pointer;
+}
+.Loginuser input{
+    border: 0px;
+    height: 32.5px;
+    width: 250px;
+    font-size:130%
+}
+.Loginuser img{
+    margin-top: 10px;
+}

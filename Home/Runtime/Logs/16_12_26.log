@@ -1,0 +1,7 @@
+[ 2016-12-26T22:48:36+08:00 ] 0.0.0.0 /Blog/home.php/Register/docheck?username=%E5%98%89%E7%82%9C
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( `username` = '嘉炜' ) LIMIT 1   [ RunTime:0.000000s ]
+

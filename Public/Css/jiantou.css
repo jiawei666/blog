@@ -1,0 +1,47 @@
+/*网易的箭头*/
+.d2{
+    /*position: absolute;*/
+    z-index: 10;
+    right: 5px;
+    top: 20px;
+    border-color: #c2c2c2 transparent transparent;
+    border-style: solid dashed dashed;
+    border-width: 4px 4px 0;
+    font-size: 0;
+    height: 0;
+    width: 0;
+    line-height: 0;
+}
+.test1{
+    border:3px solid #666;
+    border-width:3px 0 0 3px;
+    display:inline-block;
+    height:8px;
+    -moz-transform-origin:center center;
+    -moz-transform:rotate(45deg);
+    -moz-transition:all .5s ease-in .1s;
+    -webkit-transform-origin:center center;
+    -webkit-transform:rotate(45deg);
+    -webkit-transition:all .5s ease-in .1s;
+    -o-transform-origin:center center;
+    -o-transform:rotate(45deg);
+    -o-transition:all .5s ease-in .1s;
+    -ms-transform-origin:center center;
+    -ms-transform:rotate(45deg);
+    -ms-transition:all .5s ease-in .1s;
+    transform-origin:center center;
+    transform:rotate(45deg);
+    transition:all .5s ease-in .1s;
+    width:8px;}
+.test1:hover{
+    -moz-transform:rotate(-15deg);
+    -moz-transition:all .5s ease-in .1s;
+    -webkit-transform:rotate(225deg);
+    -webkit-transition:all .5s ease-in .1s;
+    -o-transform:rotate(-45deg);
+    -o-transition:all .5s ease-in .1s;
+    -ms-transform:rotate(-45deg);
+    -ms-transition:all .5s ease-in .1s;
+    transform:rotate(-45deg);
+    transition:all .5s ease-in .1s;
+}

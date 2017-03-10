@@ -1,0 +1,395 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*导航栏*/
+.header{
+    width: 100%;
+    margin: 0 auto;
+    height: 43px;
+    position: fixed;
+    _position: absolute;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    background: #333;
+    border-bottom: 2px solid #606060;
+}
+/*链接*/
+a{
+    color: white;
+    text-decoration:none;
+    cursor: pointer;
+}
+a:hover{
+    color: #9b9b9b;
+    text-decoration: underline;
+}
+/*导航栏logo*/
+.logo{
+    font-weight:bold;
+    margin-right: 27px;
+    font-size: 25px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+/*导航栏的应用*/
+.yingyong{
+    width: 70px;
+    margin-left: 0px;
+    height: 43px;
+    color:white;
+    float:left;
+    text-align: center;
+}
+.aa{
+    display:none;
+    margin-top:0px;
+    margin:0 auto;
+    list-style:none;
+    padding-left:0px;
+    background-color: white;
+    color: #8D0000;
+}
+.aa li{
+      height:23px;
+      line-height:23px;
+      font-size:20px;
+      width:80px;
+      text-align:left;
+      color:black;
+      background-color:#cad2d3;
+      margin-left:0px;
+      margin-right: 0px;
+  }
+.aa li a{
+    height:23px;
+    line-height:23px;
+    width:80px;
+    text-align:left;
+    color:black;
+    margin-left:0px;
+    margin-right: 0px;
+}
+/*导航栏右侧*/
+.login{
+    width: 300px;
+    margin-left: 0px;
+    height: 43px;
+    color:white;
+    float:right;
+    text-align:center;
+    font-size:12px;
+}
+.login a{
+    margin-right: 5px;
+    line-height: 42px;
+    text-decoration:none;
+}
+/*应用链接*/
+.yingyong a{
+    margin-right: 5px;
+    line-height: 42px;
+    font-size: 20px;
+    font-weight:bold;
+}
+/*中上部的图片区域*/
+.cbg{
+
+      width: 100%;
+      height: 250px;
+      margin: 0 0;
+    position: fixed;
+      left: 0;
+      top:45px;
+      float: none;
+    text-align: center;
+
+  }
+/*时钟跟仓鼠部分*/
+.clockcs{
+    position: fixed;
+    right: 0%;
+    top: 10%;background-color: lightgoldenrodyellow;
+    border-radius: 5px;
+    background:rgba(255,255,255,1);
+}
+
+/*文章中心区域*/
+.center{
+    background-color: #cad2d3;
+    width:60%;
+    margin: 0 0;
+    position:relative;
+    left:20%;
+    margin-top: 13%;
+    border-top: 3px solid #2E2D3C;
+    border-right: 3px solid #2E2D3C;
+    border-radius:15px;
+}
+/*中心区域的用户文章栏*/
+.user{
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: #666 0px 0px 10px;
+    -moz-box-shadow: #666 0px 0px 10px;
+    box-shadow: #666 0px 0px 10px;background: #EEFF99;behavior: url(/PIE.htc);
+
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    border-radius:15px;
+}
+/*中心区域的用户栏*/
+.utop{
+    /*div外阴影*/
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: #666 0px 0px 10px;
+    -moz-box-shadow: #666 0px 0px 10px;
+    box-shadow: #666 0px 0px 10px;background: #EEFF99;behavior: url(/PIE.htc);
+
+    background-color: #8D0000;
+    width: 90%;
+    height: 80px;
+    margin-left: 5%;
+    padding-top: 20px;
+}
+/*中心区域的用户栏的头像*/
+.utophp{
+    width: 65px;
+    height: 70px;
+    margin-left: 10px;
+    float: left;
+    margin-right: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/*导入的头像图片*/
+.utophp img{
+    max-width:65px;
+    height: 70px;
+    border:1px solid white;
+    border-radius: 10px;
+}
+/*中心区域用户栏的用户id*/
+.utopid{
+    padding-top: 16px;
+    margin-left: 10px;
+    width:200px;
+    height: 70px;
+    float: left;
+    font-weight: bold;
+}
+/*中心区域用户栏的日期*/
+.utopdate{
+    width: 100px;
+    height: 20px;
+    background-color: #00a65a;
+    float: right;
+    text-align: center;
+    cursor: pointer;
+}
+/*中心区域用户栏底部（文章部分）*/
+.ubottom{
+    background-color: white;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+/*中心区域用户栏的横线*/
+.ubottom hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*div外阴影*/
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: #666 0px 0px 10px;
+    -moz-box-shadow: #666 0px 0px 10px;
+    box-shadow: #666 0px 0px 10px;background: #EEFF99;behavior: url(/PIE.htc);
+}
+/**中心区域用户栏的文章头部*/
+.ubottomt{
+    background-color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.ubottomt a{
+    color: black;
+}
+.ubottomt a:hover{
+    color: #9b9b9b;
+}
+/*中心区域用户栏的文章中部*/
+.ubottomc{
+
+    background-color: white;
+    font-size: 15px;
+}
+/*中心区域用户栏的文章中部链接*/
+.ubottomc a{
+    color:#8D0000;
+    text-decoration:underline;
+}
+.ubottomc a:hover{
+    color: #EE0000;
+}
+/*网页底部*/
+.bottom{
+    width: 100%;
+    height: 60px;
+    margin-top: 350px;
+    background: #333;
+    border-top: 2px solid #606060;
+    color: white;
+    text-align: center;
+    font-size: small;
+}
+
+.bottom hr{
+    margin-left: 20%;
+}
+/*关于用户的div
+,为了避免detial界面滚动条拉到底部用户信息div消失，
+所以新建一个dUuser的css给detial界面使用*/
+/*detial界面*/
+.dUuser{
+    position: fixed;
+    left: 6%;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 2px solid #afafaf;
+    box-shadow: #666 0px 0px 20px;
+}
+.dUuser a:hover{
+    color: #9b9b9b;
+}
+/*login/index跟my界面*/
+.Uuser{
+    position: fixed;
+    left: 6%;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 2px solid #afafaf;
+    box-shadow: #666 0px 0px 20px;
+}
+.fcount{
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background-color:#8D0000;
+    position: absolute;
+    top:5%;
+    left:83%;
+    box-shadow: #666 0px 0px 5px;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.fcomment{
+    display: none;
+}
+.fdetial{
+    padding: 10px;
+    padding-left: 20px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: #e6e6e6;
+    background: rgba(255, 255, 255, 0.9) !important;
+    position: absolute;
+    top:1%;
+    left:100%;
+    z-index: 9999;
+    text-decoration:underline
+}
+.fdetial a{
+    color: blue;
+    font-size: 20px;
+}
+
+.fdetial-jiantou{
+    position: absolute;
+    top:5%;
+    left:93%;
+}
+
+.Userbg{
+    background: url("__PUBLIC__/img/Desert.jpg");
+    background-size: cover;
+}
+.Uuserid{
+    position: absolute;
+    left: 78%;
+    top:78%;
+    background-color:#3B5900;
+    width: 150px;
+    height: 30px;
+    box-shadow: #666 0px 0px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Uuser a:hover{
+    color: #9b9b9b;
+}
+/*关于用户small的div*/
+.sUuser{
+    display: none;
+    position: fixed;
+    left: 3%;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    border: 2px solid #afafaf;
+    box-shadow: #666 0px 0px 20px;
+}
+.sUuserid{
+    position: absolute;
+    left: 50%;
+    top:78%;
+    background-color:#3B5900;
+    width: 150px;
+    height: 30px;
+    box-shadow: #666 0px 0px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sUuser a:hover{
+    color: #9b9b9b;
+}
+/*搜索栏*/
+.search{
+    position: fixed;
+    left: 80%;top:30%;
+}
+.search div{
+    margin-bottom: 3px;
+    width: 60px;
+    height: 60px;
+    background-color: #FAFAFA;
+    border: 1px solid gray;
+    border-left: 0px;
+    box-shadow: #666 0px 2px 5px;
+}
+.search div img{
+    margin-top: 8px;
+    margin-left: 8px;
+    width: 40px;
+    height: 40px;
+}
+.search div div{
+    display: none;
+    width: 0px;
+    height: 45px;
+    background-color: #1296db;
+    position: absolute;
+    left: 100%;top:25%;
+    padding-top:15px;
+}
